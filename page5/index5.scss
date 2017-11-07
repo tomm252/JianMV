@@ -1,0 +1,280 @@
+@charset "UTF-8";
+ul{
+  list-style:none;
+}
+.container{
+  width: 1170px !important;
+  max-width: none !important;
+}
+/*导航栏*/
+.aab{
+  width: 100%;
+  background: rgba(0,0,0,.6);
+  border-bottom: 1px  solid black ;
+  margin-bottom: 0px;
+  float: left;
+  .row{
+    /*左部栏*/
+    .aa{
+      background: #3a3839;
+      position: absolute;
+      width: 293px;
+      padding: 0;
+      z-index: 5;
+      li{
+        height: 50px;
+        width: 100%;
+        line-height: 50px;
+        a{
+          color: white;
+          font-size: 15px;
+
+        }
+      }
+
+      .a1{
+        text-align: center;
+        a{
+          font-size: 18px;
+        }
+      }
+      .bc{
+        display: none;
+        li:nth-of-type(n){
+          border-bottom: 1px solid black;
+          padding: 0px 29px;
+          cursor: pointer;
+          height: 54px;
+          &:hover a{
+            transition: margin-left 0.3s;
+            text-decoration: none;
+            color: #c39d61;
+            margin-left: 15px;
+          }
+          &:hover span{
+            color: #c39d61;
+          }
+          span{
+            display: inline-block;
+            color: white;
+            float: right;
+
+          }
+          img{
+            display: inline-block;
+            margin-right: 5px;
+            margin-top: -4px;
+          }
+
+        }
+      }
+    }
+    /*右部菜单栏*/
+    .ab{
+      float: right;
+      li{
+        float: left;
+        width: 14%;
+        text-align: center;
+        &:hover a{
+          color: #c39d61;
+        }
+      }
+      .ab1{
+        background: black;
+        a{
+          color: #c39d61;
+        }
+      }
+      a{
+        color: white;
+        font-size: 16px;
+      }
+    }
+  }
+}
+section{
+  .box{
+    width: 100%;
+    overflow: hidden;
+    padding: 100px 0;
+    .CarouselFigure5{
+      height: 349px;
+      #slidershow{
+        img{
+          height: 349px;
+        }
+
+      }
+    }
+    /*右侧产品介绍*/
+    .products{
+      padding-left: 40px;
+      padding-right: 20px;
+      .productsTop{
+        border-bottom: 1px solid #dacec6;
+        h2{
+          font-size: 28px;
+          font-weight: 700;
+          margin-top: 0;
+        }
+        p{
+          padding: 20px 0;
+          color: #807773;
+          span{
+            display: inline-block;
+            margin-left: 5px;
+          }
+        }
+      }
+      .productsCenter{
+        padding: 20px 0;
+        border-bottom: 1px solid #dacec6;
+        .productsNumber{
+          form{
+            .input-group{
+              border: 2px solid #dacec6;
+              width: 120px;
+              .input-group-addon{
+                cursor: pointer;
+              }
+              input{
+                text-align: center;
+                height: 100%;
+              }
+            }
+          }
+
+        } /*数量*/
+        .productsCustomization{
+            margin-top: 30px;
+          p{
+            color: black;
+            font-weight: 600;
+            span{
+              font-weight: 500;
+              color: #dacec6;
+              margin-left: 30px;
+            }
+          }
+
+        }
+      }
+      .productsBottom{
+        padding: 30px 0 10px 0;
+        h3{
+          display: inline-block;
+        }
+        button{
+          display: inline-block;
+          margin-top: 15px;
+          a{
+            color: white;
+          }
+        }
+      }
+    }
+  }
+  .box2{
+    .nav{
+      width: 100%;
+      background: #f2edeb;
+      padding: 0 20px;
+      li{
+        float: left;
+        i{
+          margin-right: 15px;
+        }
+        &:hover a{
+          color: #76b071;
+        }
+        a{
+          font-size: 20px;
+          padding: 22px 20px;
+          color: #635851;
+        }
+      }
+    }
+    .p1{
+      padding: 140px 50px;
+      p{
+        color: #342d28;
+        font-weight: 600;
+        font-size: 19px;
+      }
+    }
+    .picture{
+      img{
+        width: 100%;
+        height: 550px;
+        margin-bottom: 110px;
+      }
+    }
+    .salesNote{
+      padding: 10px 0  110px 0;
+      h3{
+        line-height: 50px;
+        font-weight: 600;
+      }
+      p{
+        letter-spacing: 3px;
+        line-height: 20px;
+        font-size: 18px;
+        font-weight: 600;
+        color: #342d28;
+        span{
+          line-height: 50px;
+        }
+      }
+    }
+  }
+}
+/*底部栏*/
+footer{
+  width: 100%;
+  height: 500px;
+  background: #29272a;
+  .assd2{
+    margin-top: 80px;
+    margin-bottom: 60px;
+    li{
+      margin: 14px 5px;
+      &:hover a{
+        color: #c39d61;
+      }
+      a{
+        color: #5d5b53;
+      }
+    }
+    h4{
+      color: #a6a188;
+    }
+    .gga{
+      padding-left: 0px;
+      div{
+        margin: 14px 0px;
+        color: #5d5b53;
+      }
+    }
+  }
+  .assd3{
+    width: 80%;
+    margin: 0 auto;
+    li{
+      width: 12%;
+      height: 17px;
+      line-height: 17px;
+      text-align: center;
+      border-right: 1px solid #a6a188;
+      a{
+        color: #a6a188;
+      }
+    }
+  }
+  p{
+    width: 100%;
+    text-align: center;
+    margin: 13px auto;
+    color: #5d5b53;
+  }
+}

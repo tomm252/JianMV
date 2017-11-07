@@ -1,0 +1,280 @@
+@charset "UTF-8";
+ul {
+  list-style: none; }
+
+.container {
+  width: 1170px !important;
+  max-width: none !important; }
+
+/*导航栏*/
+.navbar {
+  background: #484846;
+  border-bottom: 1px solid black;
+  margin-bottom: 0px; }
+  .navbar .row {
+    /*左部栏*/
+    /*右部菜单栏*/ }
+    .navbar .row .aa {
+      background: #3a3839;
+      position: absolute;
+      width: 293px;
+      padding: 0;
+      z-index: 5; }
+      .navbar .row .aa li {
+        height: 50px;
+        width: 100%;
+        line-height: 50px; }
+        .navbar .row .aa li a {
+          color: white;
+          font-size: 15px; }
+      .navbar .row .aa .a1 {
+        text-align: center; }
+        .navbar .row .aa .a1 a {
+          font-size: 18px; }
+      .navbar .row .aa .bc {
+        display: none; }
+        .navbar .row .aa .bc li:nth-of-type(n) {
+          border-bottom: 1px solid black;
+          padding: 0px 29px;
+          cursor: pointer;
+          height: 59px; }
+          .navbar .row .aa .bc li:nth-of-type(n):hover a {
+            transition: margin-left 0.3s;
+            text-decoration: none;
+            color: #c39d61;
+            margin-left: 15px; }
+          .navbar .row .aa .bc li:nth-of-type(n):hover span {
+            color: #c39d61; }
+          .navbar .row .aa .bc li:nth-of-type(n) span {
+            display: inline-block;
+            color: white;
+            float: right; }
+          .navbar .row .aa .bc li:nth-of-type(n) img {
+            display: inline-block;
+            margin-right: 5px;
+            margin-top: -4px; }
+    .navbar .row .ab {
+      float: right; }
+      .navbar .row .ab li {
+        float: left;
+        width: 14%;
+        text-align: center; }
+        .navbar .row .ab li:hover a {
+          color: #c39d61; }
+      .navbar .row .ab .ab1 {
+        background: black; }
+        .navbar .row .ab .ab1 a {
+          color: #c39d61; }
+      .navbar .row .ab a {
+        color: white;
+        font-size: 16px; }
+
+.img2 {
+  height: 610px;
+  width: 100%;
+  background: url("img/简木2_01.png");
+  background-size: cover; }
+
+section .box1 {
+  width: 100%;
+  height: 380px;
+  background: #d7d8d3; }
+  section .box1 .container .row {
+    margin-top: 122px;
+    margin-bottom: 30px; }
+    section .box1 .container .row .col-xs-5 {
+      padding-top: 40px;
+      padding-right: 99px; }
+      section .box1 .container .row .col-xs-5 h3 {
+        letter-spacing: 6px; }
+    section .box1 .container .row .col-xs-2 {
+      padding: 0;
+      width: 147px;
+      height: 171px;
+      margin-right: 74px;
+      cursor: pointer;
+      overflow: hidden; }
+      section .box1 .container .row .col-xs-2:hover img {
+        transition: all 0.4s;
+        transform: scale(1.1); }
+    section .box1 .container .row .col-xs-3 {
+      width: 234px;
+      height: 173px;
+      padding: 0;
+      margin-left: 6px;
+      cursor: pointer;
+      overflow: hidden; }
+      section .box1 .container .row .col-xs-3:hover img {
+        transition: all .4s;
+        transform: scale(1.1); }
+section .box2 {
+  overflow: hidden;
+  width: 100%;
+  height: 704px;
+  background: url("img/简木2_15.png"); }
+  section .box2 .bgg2 {
+    width: 60px;
+    height: 102px;
+    transform: translate(144px, 51px); }
+    section .box2 .bgg2 h2 {
+      color: white; }
+    section .box2 .bgg2 span a {
+      color: #dbdce1; }
+section .box3 {
+  width: 100%;
+  height: 380px;
+  background: #d7d8d3;
+  overflow: hidden; }
+  section .box3 .row {
+    margin-top: 30px; }
+    section .box3 .row .col-xs-6 {
+      background: url("img/简木2_16.png");
+      width: 1399px;
+      height: 337px; }
+      section .box3 .row .col-xs-6 h2 {
+        transform: translate(-280px, 116px);
+        font-size: 34px;
+        color: #797977; }
+section .box4 {
+  background: url("img/简木2_18.png") no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 693px;
+  text-align: center;
+  overflow: hidden; }
+  section .box4 .nr4 {
+    margin-top: 120px;
+    color: white;
+    letter-spacing: 6px; }
+    section .box4 .nr4 p, section .box4 .nr4 h3 {
+      font-size: 28px; }
+section .box5 {
+  background: url("img/简木2_20.png") no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 338px; }
+  section .box5 .bbg5 {
+    letter-spacing: 5px;
+    margin-top: 114px;
+    color: #6d6d6b; }
+    section .box5 .bbg5 h2 {
+      font-size: 38px; }
+section .box6 {
+  overflow: hidden;
+  height: 665px;
+  position: relative; }
+  section .box6 .pull-left {
+    background: url("img/简木2_24.png") no-repeat;
+    background-size: cover;
+    height: 665px;
+    width: 50%;
+    margin: 0; }
+    section .box6 .pull-left .ydb6 {
+      transform: translate(215px, 366px); }
+      section .box6 .pull-left .ydb6 h3 {
+        font-weight: 600;
+        letter-spacing: 5px;
+        color: black; }
+  section .box6 .pull-right {
+    background: url("img/简木2_26.png") no-repeat;
+    background-size: cover;
+    height: 665px;
+    width: 50%;
+    margin: 0; }
+  section .box6 .dds6 {
+    height: 100%;
+    width: 474px;
+    margin-left: -237px;
+    background: url("img/简木2_25.png");
+    position: absolute;
+    z-index: 11;
+    left: 50%; }
+  section .box6 .row {
+    width: 101%;
+    height: 190px;
+    margin-top: -6px;
+    z-index: 99;
+    position: absolute;
+    top: 50%; }
+    section .box6 .row div {
+      background: white;
+      height: 190px;
+      width: 32%;
+      text-align: center;
+      letter-spacing: 5px;
+      color: black;
+      padding: 35px 0px; }
+      section .box6 .row div h3 {
+        font-weight: 600; }
+section .box7 {
+  background: url("img/简木2_27.png") no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 339px;
+  line-height: 339px;
+  text-align: center;
+  overflow: hidden;
+  font-size: 30px;
+  font-weight: 600;
+  color: black; }
+section .box8 {
+  background: url("img/gg1.png") no-repeat;
+  background-size: cover;
+  width: 101%;
+  height: 698px; }
+  section .box8 .col-xs-2 {
+    width: 20%;
+    height: 100%;
+    float: left;
+    background: black; }
+    section .box8 .col-xs-2 h2 {
+      margin: 273px auto;
+      color: white;
+      width: 20px; }
+  section .box8 div:nth-of-type(2n) {
+    background: rgba(0, 0, 0, 0.3); }
+  section .box8 div:nth-of-type(2n+1) {
+    background: rgba(0, 0, 0, 0.7); }
+
+/*底部栏*/
+footer {
+  width: 100%;
+  height: 500px;
+  background: #29272a; }
+  footer .assd2 {
+    margin-top: 80px;
+    margin-bottom: 60px; }
+    footer .assd2 li {
+      margin: 14px 5px; }
+      footer .assd2 li:hover a {
+        color: #c39d61; }
+      footer .assd2 li a {
+        color: #5d5b53; }
+    footer .assd2 h4 {
+      color: #a6a188; }
+    footer .assd2 .gga {
+      padding-left: 0px; }
+      footer .assd2 .gga div {
+        margin: 14px 0px;
+        color: #5d5b53; }
+      footer .assd2 .gga img {
+        width: 117.99px;
+        height: 117.99px; }
+  footer .assd3 {
+    width: 80%;
+    margin: 0 auto; }
+    footer .assd3 li {
+      width: 12%;
+      height: 17px;
+      line-height: 17px;
+      text-align: center;
+      border-right: 1px solid #a6a188; }
+      footer .assd3 li a {
+        color: #a6a188; }
+  footer p {
+    width: 100%;
+    text-align: center;
+    margin: 13px auto;
+    color: #5d5b53; }
+
+/*# sourceMappingURL=index.css.map */
